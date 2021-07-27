@@ -1,0 +1,45 @@
+name: fastapi-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - ca-certificates=2021.5.30
+  - certifi=2021.5.30
+  - ld_impl_linux-64=2.36.1
+  - libffi=3.3
+  - libgcc-ng=11.1.0
+  - libgomp=11.1.0
+  - libstdcxx-ng=11.1.0
+  - ncurses=6.2
+  - openssl=1.1.1k
+  - pip=21.2.1
+  - python=3.8.10
+  - python_abi=3.8
+  - readline=8.1
+  - setuptools=49.6.0
+  - sqlite=3.36.0
+  - tk=8.6.10
+  - wheel=0.36.2
+  - xz=5.2.5
+  - zlib=1.2.11
+  - pip:
+    - asgiref==3.4.1
+    - click==8.0.1
+    - colorama==0.4.4
+    - fastapi==0.67.0
+    - gunicorn==20.1.0
+    - h11==0.12.0
+    - httptools==0.2.0
+    - numpy==1.21.1
+    - pydantic==1.8.2
+    - python-dotenv==0.19.0
+    - pyyaml==5.4.1
+    - starlette==0.14.2
+    - structlog==21.1.0
+    - typing-extensions==3.10.0.0
+    - uvicorn==0.14.0
+    - uvloop==0.15.3
+    - watchgod==0.7
+    - websockets==9.1
